@@ -1,0 +1,5 @@
+For implementing the regex functions I used Knuth Morris pratt algorithm. The reasons for using KMP algorithm over other algorithms are,
+1. It uses a table to store information about patterns. This allows the algorithm to skip over parts of the text that it knows cannot match the pattern
+2. Because of the above reason the linear time complexity is of O(n+m), hence linear time complexity, therefore it is better for large corpus of text.
+3. Comparatively easier to implement, since a dynamic programming approach is used that do not have backtracking.
+4. overall performance of algorithm for substring matching is good.
